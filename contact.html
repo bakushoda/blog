@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Contact</title>
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <header>
+    <div id="title">
+      <h1>Baku Shoda</h1>
+    </div>
+
+    <nav>
+      <ul id="nav">
+        <div id="navigation">
+
+          
+                 <li><a href="index.html#1">Profile</a></li>
+                 <li><a href="index.html#2">Career</a></li>
+                 <li><a href="index.html#3">Advantage</a></li>
+                 <li><a href="index.html#4">Achivement</a></li>
+                 <li><a href="index.html#5">Contact</a></li>
+        </div>
+       
+        
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form class="mailForm" action="mail.php" method="post">
+      <p>お気軽にお問い合わせください。</p>
+      <dl>
+        <dt>お名前</dt>
+        <dd>
+          <input name="name" type="text" required="required" id="name">
+        </dd>
+        <dt>メールアドレス</dt>
+        <dd>
+          <input name="email" type="email" required="required" id="email">
+        </dd>
+        <dt>お問い合わせ内容</dt>
+        <dd>
+          <textarea name="content" required="required" id="content"></textarea>
+        </dd>
+        <input type="hidden" id="token" name="token" value="1234567" />
+      </dl>
+      <p id="submit_button_cover">
+        <input name="submit_buton" type="submit" id="submit_button" value="送信">
+      </p>
+ </form>
+  </main>
+</body>
+</html>
