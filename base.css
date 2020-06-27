@@ -1,0 +1,246 @@
+/* ページ全体 */
+
+body {
+  color: #333;
+  background: #f2f2f2;
+  font-family: sans-serif;
+  margin: 0;
+  border-top: 7px solid #333;
+
+}
+
+
+/* ヘッダー */
+
+#title h1 {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+header {
+ margin-top: 30px;
+ text-align: center;
+}
+
+header li {
+  list-style: none;
+}
+
+header li a {
+  text-decoration: none;
+}
+
+#navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  margin: 36px 2px 2px;
+  padding: 0;
+}
+
+#navigation li {
+  margin: 0;
+  padding: 0;
+}
+
+#navigation li, #navigation a {
+  display: block;
+}
+
+#navigation li a {
+  color: #f2f2f2;
+  margin: 2px;
+  padding: 0.4rem 0;
+  background: #333;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+#nav {
+  padding-left: 0;
+}
+
+/* メインコンテンツ */
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#profile  {
+  order: 1;
+  margin-top: 3rem;
+}
+
+#profile h1 {
+  text-align: center;
+}
+
+#profile img {
+  width: 100vw;
+  vertical-align: bottom;
+}
+
+#profile p {
+  margin: 3rem auto 0 auto;
+  width: 400px;
+}
+
+#career {
+  order: 2;
+  margin-top: 5rem;
+  border-top: solid 7px #333;
+}
+
+#career h1 {
+  text-align: center;
+  margin-top: 3rem;
+  
+}
+
+#career table {
+  margin: 0 auto;
+}
+
+.year {
+  text-align: center;
+}
+
+.experience {
+  padding-left: 2rem;
+}
+
+#advantage {
+  order: 3;
+  margin-top: 5rem;
+  border-top: solid 7px #333;
+  
+}
+
+#advantage h1 { 
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.myself img {
+  width: 100vw;
+  margin-top: 3rem;
+}
+
+.myself h2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.myself p {
+  width: 400px;
+  margin: 0 auto;
+}
+
+
+#achivement {
+  order: 4;
+  margin-top: 5rem;
+  border-top: solid 7px #333;
+}
+
+#achivement h1{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+#achivement p {
+  width: 400px;
+  margin: 0 auto;
+}
+
+
+
+#achivement a {
+  text-decoration: none;
+  color: #333;
+}
+
+#achivement a:hover {
+  background: rgb(123, 123, 123);
+}
+
+#contact {
+  order: 5;
+  margin-top: 5rem;
+  border-top: solid 7px #333;
+}
+
+#contact h1 {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(123, 123, 123);
+}
+
+#contactform {
+  text-align: center;
+}
+
+#contactform a {
+  
+  color: #333;
+}
+
+#contactform a:hover {
+  background: rgb(123, 123, 123);
+}
+
+
+#sidebar {
+  order: 6;
+  margin-top: 5rem;
+  border-top: solid 7px #333;
+  
+
+}
+
+#profileimage1 img {
+  width: 80px;
+  border-radius: 80px 80px;
+  margin: 3rem auto 0 auto;
+  display: block;
+}
+
+#sidebar h2 {
+  text-align: center;
+}
+
+#sidebar p {
+  text-align: center;
+}
+
+#sns {
+  
+  text-align: center;
+}
+
+#sns img {
+  
+  width: 50px;
+  border-radius: 50px 50px;
+  display: inline-block;
+}
+
+footer {
+  background: #333;
+  margin-top: 100px;
+  height: 50px;
+  line-height: 50px;
+}
+
+small p {
+  
+  color: #fff;
+  text-align: center;
+  
+}
